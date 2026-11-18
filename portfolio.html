@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Gabriel | Desenvolvedor de Sistemas</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --accent-hover: #0284c7;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 0;
+            border-bottom: 1px solid #334155;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent);
+        }
+
+        header p {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto 1.5rem;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            background-color: var(--accent);
+            color: #0f172a;
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-hover);
+            color: #fff;
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            border: 1px solid var(--accent);
+            color: var(--accent);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--accent);
+            color: #0f172a;
+        }
+
+        section {
+            margin-top: 3rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--accent);
+            padding-left: 0.75rem;
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+
+        .skill-tag {
+            background-color: var(--card-bg);
+            border: 1px solid #334155;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid #334155;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card h3 {
+            color: var(--accent);
+            margin-bottom: 0.75rem;
+            font-size: 1.25rem;
+        }
+
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .tech-used {
+            font-size: 0.85rem;
+            color: #cbd5e1;
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #334155;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Victor Gabriel Mendes</h1>
+            <p>Técnico em Desenvolvimento de Sistemas pelo Senac-DF | Focado em desenvolvimento Web, Python, Back-end e Automação.</p>
+            <div class="links">
+                <a href="mailto:victorgabriel.mf.dev@gmail.com" class="btn">Entrar em Contato</a>
+                <a href="https://github.com/vick-g" target="_blank" class="btn btn-outline">GitHub</a>
+                <a href="https://linkedin.com/in/victor-gabriel-821124426/" target="_blank" class="btn btn-outline">LinkedIn</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Sobre Mim</h2>
+            <p style="color: var(--text-muted);">
+                Desenvolvedor de 18 anos residente em Brasília-DF, formado no curso técnico em Desenvolvimento de Sistemas pelo Senac Taguatinga e concluindo o Ensino Médio. Tenho perfil prático, facilidade com lógica de programação e foco em criar sistemas organizados, dashboards funcionais e automações que facilitam rotinas reais.
+            </p>
+        </section>
+
+        <section>
+            <h2>Tecnologias & Ferramentas</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">HTML5 & CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Pandas & Streamlit</span>
+                <span class="skill-tag">Java & Spring Boot</span>
+                <span class="skill-tag">SQL & MySQL</span>
+                <span class="skill-tag">React Native</span>
+                <span class="skill-tag">Git & GitHub</span>
+                <span class="skill-tag">Docker & n8n</span>
+                <span class="skill-tag">Godot (GDScript)</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projetos em Destaque</h2>
+            <div class="projects-grid">
+                <div class="card">
+                    <div>
+                        <h3>EstoqueFácil</h3>
+                        <p>Sistema web para controle e gestão de estoque de alimentos, acompanhamento de entradas e saídas e dashboard interativo de vendas.</p>
+                    </div>
+                    <span class="tech-used">Python • Streamlit • Pandas • Plotly</span>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <h3>Task Manager Web</h3>
+                        <p>Aplicação interativa de gerenciamento de tarefas diárias com classificação por prioridades, contadores dinâmicos, modo escuro e persistência local.</p>
+                    </div>
+                    <span class="tech-used">HTML • CSS • JavaScript • LocalStorage</span>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <h3>Automações & Bots</h3>
+                        <p>Scripts de automação para envio de mensagens e otimização de tarefas repetitivas em ambiente desktop e fluxos de trabalho.</p>
+                    </div>
+                    <span class="tech-used">Python • PyAutoGUI • n8n</span>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Brasília, DF • victorgabriel.mf.dev@gmail.com</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+# Olá! Eu sou o Victor Gabriel 👋
+
+🎓 **Técnico em Desenvolvimento de Sistemas** formado pelo Senac-DF  
+📍 Brasília, Distrito Federal  
+📫 Contato: **victorgabriel.mf.dev@gmail.com**
+
+---
+
+### 💻 Sobre mim
+Tenho 18 anos e sou apaixonado por resolver problemas reais usando código. Meu foco é aprender na prática, construindo aplicações web, painéis de análise de dados e automações que simplificam o dia a dia.
+
+### 🛠️ Tecnologias que utilizo
+* **Front-end:** HTML5, CSS3, JavaScript, React Native
+* **Back-end:** Python, Java, Spring Boot
+* **Dados & Automação:** Pandas, Streamlit, Plotly, PyAutoGUI, n8n
+* **Banco de Dados & DevOps:** SQL, MySQL, Git, GitHub, Docker Desktop
+* **Game Dev:** Godot Engine (GDScript)
+
+### 🚀 Principais Projetos
+* **📦 EstoqueFácil:** Sistema de gerenciamento de estoque de alimentos com painel analítico de vendas desenvolvido em Python e Streamlit.
+* **✅ Daily To-Do App:** Gerenciador de tarefas interativo com filtros de prioridade, Dark Mode e salvamento automático via `localStorage`.
+* **⚙️ Scripts de Automação:** Ferramentas em Python para automatização de rotinas e fluxos de comunicação.
